@@ -66,4 +66,4 @@ console.log('x >> 1 =', x >> 1); // 0010 -> 2
 
 // Exemplo de precedência
 console.log('1 + 2 * 3 =', 1 + 2 * 3); // 7 (multiplicação antes da adição)
-console.log('(1 + 2) * 3 =', (1 + 2) * 3); // 9 (parênteses alteram a precedência)
+console.log('(1 + 2) * 3 =', (1 + 2) * 3); // 9 (parênteses alteram a precedência)  
