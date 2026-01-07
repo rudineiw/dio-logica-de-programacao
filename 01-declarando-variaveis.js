@@ -33,6 +33,7 @@ console.log(notificacao + " nova atualização disponivel!");
 // Não podem começar com número.
 // Podem conter números após o primeiro caractere.
 // Não podem usar palavras reservadas (ex.: class, return, function).
+// Não pode usar espaços (ex: nome completo)
 
 // exemplos corretos
 let fruta
@@ -60,7 +61,7 @@ const API_URL = "..."
 const TAXA_JUROS = 0.05;
 
 let valorProduto = 120;
-let nomeCliente = "Rudinei";
+let nomeCliente = "Fulano";
 let descontoAplicado = calcularDesconto(valorProduto);
 
 function calcularDesconto(valor) {
